@@ -940,8 +940,8 @@ eScan_rad_increment = Entry(scan_frame, width=10)
 sScan_rad_velocity = Scale(scan_frame, from_=0.01, to=.77, orient=HORIZONTAL, length=150,
                            label="            Velocity in/s", resolution=0.01)
 
-lScan10 = Label(scan_frame, text="Scan Circ", height=2, font=("Helvetica", 14))
-lScan11 = Label(scan_frame, text="Scan Radial", height=2, font=("Helvetica", 14))
+lScan10 = Label(scan_frame, text="Circ", height=2, font=("Helvetica", 14))
+lScan11 = Label(scan_frame, text="Radial", height=2, font=("Helvetica", 14))
 lScan1 = Label(scan_frame, text="Pos. (deg)")
 lScan2 = Label(scan_frame, text="Cur. (mA)")
 lScan3 = Label(scan_frame, text="Pos. (in)")
