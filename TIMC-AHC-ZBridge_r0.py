@@ -1008,7 +1008,7 @@ ePos_vert_current = Entry(position_frame, state="readonly", width=10, textvariab
 ePos_vert_set = Entry(position_frame, width=10)
 ePos_vert_goto = Entry(position_frame, width=10)
 ePos_vert_increment = Entry(position_frame, width=10)
-sPos_vert_velocity = Scale(position_frame, from_=0.01, to=.77, orient=HORIZONTAL, length=150,
+sPos_vert_velocity = Scale(position_frame, from_=0.01, to=.15, orient=HORIZONTAL, length=150,
                            label="            Velocity in/s", resolution=0.01)
 
 
