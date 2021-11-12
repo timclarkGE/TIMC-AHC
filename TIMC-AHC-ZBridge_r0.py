@@ -920,9 +920,10 @@ eScan_circ_increment = Entry(scan_frame, width=10)
 sScan_circ_velocity = Scale(scan_frame, from_=0.5, to=MAX_CIRC_SPEED, orient=HORIZONTAL, length=150,
                             label="            Velocity deg/s", resolution=0.1)
 
-bScan_IN = Button(scan_frame, text="IN", activeforeground="black", activebackground="#00aa00", bg="#00aa00", width=10,
+# Switched button names IN->OUT, OUT->IN for the ztec right hand rule
+bScan_IN = Button(scan_frame, text="OUT", activeforeground="black", activebackground="#00aa00", bg="#00aa00", width=10,
                   state=DISABLED)
-bScan_OUT = Button(scan_frame, text="OUT", activeforeground="black", activebackground="#00aa00", bg="#00aa00", width=10,
+bScan_OUT = Button(scan_frame, text="IN", activeforeground="black", activebackground="#00aa00", bg="#00aa00", width=10,
                    state=DISABLED)
 bScan_ENABLE_rad = Button(scan_frame, text="OFF", fg="black", bg="red", height=2, width=6, padx=3, pady=3,
                           command=lambda: enableAxisBtn(1))
