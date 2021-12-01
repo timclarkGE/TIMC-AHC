@@ -428,7 +428,7 @@
       <Axis exists="true" number="1">
         <P n="AxisType">0</P>
         <P n="ReverseMotionDirection">1</P>
-        <P n="CountsPerUnit">55073</P>
+        <P n="CountsPerUnit">54727</P>
         <P n="ServoRate">2</P>
         <P n="ServoSetup">5</P>
         <P n="GainKpos">121</P>
@@ -458,15 +458,15 @@
         <P n="EnableBrakeControl">0</P>
         <P n="FaultMaskOutput">0</P>
         <P n="ESTOPFaultInput">-2</P>
-        <P n="PositionErrorThreshold">0.15590216621575004</P>
+        <P n="PositionErrorThreshold">0.15688782502238385</P>
         <P n="AverageCurrentThreshold">0.320855618</P>
         <P n="AverageCurrentTime">4000</P>
-        <P n="VelocityCommandThreshold">1.2082417881720617</P>
-        <P n="VelocityErrorThreshold">0.090423256405135058</P>
+        <P n="VelocityCommandThreshold">1.215880643923474</P>
+        <P n="VelocityErrorThreshold">0.090994938512982682</P>
         <P n="SoftwareLimitLow">0</P>
         <P n="SoftwareLimitHigh">0</P>
         <P n="MaxCurrentClamp">0.6</P>
-        <P n="InPositionDistance">0.0015590216621575</P>
+        <P n="InPositionDistance">0.0015688782502238381</P>
         <P n="MotorType">2</P>
         <P n="CyclesPerRev">0</P>
         <P n="CountsPerRev">42930</P>
@@ -484,7 +484,7 @@
         <P n="EncoderCosineOffset">0</P>
         <P n="EncoderPhase">128</P>
         <P n="GantryMasterAxis">-1</P>
-        <P n="LimitDecelDistance">855.70100472746458</P>
+        <P n="LimitDecelDistance">861.11099518255446</P>
         <P n="LimitDebounceTime">100</P>
         <P n="EndOfTravelLimitSetup">0</P>
         <P n="BacklashDistance">0</P>
@@ -495,15 +495,15 @@
         <P n="EncoderDivider">0</P>
         <P n="ExternalFaultDigitalInput">-1</P>
         <P n="BrakeDisableDelay">0</P>
-        <P n="MaxJogDistance">2139.2525118186609</P>
-        <P n="DefaultSpeed">4278.50502363733</P>
-        <P n="DefaultRampRate">19387.437437582848</P>
-        <P n="AbortDecelRate">779.51083107875058</P>
+        <P n="MaxJogDistance">2152.7774879563854</P>
+        <P n="DefaultSpeed">4305.55497591278</P>
+        <P n="DefaultRampRate">19510.010451879334</P>
+        <P n="AbortDecelRate">784.43912511191968</P>
         <P n="HomeType">4</P>
         <P n="HomeSetup">0</P>
-        <P n="HomeSpeed">4278.50502363733</P>
+        <P n="HomeSpeed">4305.55497591278</P>
         <P n="HomeOffset">0</P>
-        <P n="HomeRampRate">21392.525118186619</P>
+        <P n="HomeRampRate">21527.774879563865</P>
         <P n="StepperResolution">0</P>
         <P n="StepperRunningCurrent">0</P>
         <P n="StepperHoldingCurrent">0</P>
@@ -523,14 +523,14 @@
         <P n="GearCamIndex">0</P>
         <P n="GearCamScaleFactor">1</P>
         <P n="GearCamAnalogDeadband">0.05</P>
-        <P n="MaxJogSpeed">1.2082417881720617</P>
+        <P n="MaxJogSpeed">1.215880643923474</P>
         <P n="DecimalPlaces">4</P>
         <P n="UnitsName">in</P>
         <P n="EnDatEncoderSetup">3</P>
         <P n="EnDatEncoderResolution">13</P>
         <P n="EnDatEncoderTurns">1</P>
-        <P n="JoystickLowSpeed">2139.2525118186609</P>
-        <P n="JoystickHighSpeed">10696.262559093313</P>
+        <P n="JoystickLowSpeed">2152.7774879563854</P>
+        <P n="JoystickHighSpeed">10763.887439781936</P>
         <P n="HomePositionSet">0</P>
         <P n="FaultMaskDisableDelay">0</P>
         <P n="FaultAbortAxes">3</P>
@@ -587,7 +587,7 @@
         <P n="Analog1Filter1CoeffD2">0</P>
         <P n="DefaultRampMode">1</P>
         <P n="DefaultRampTime">0.5</P>
-        <P n="DefaultRampDistance">1069.6262559093309</P>
+        <P n="DefaultRampDistance">1076.3887439781931</P>
         <P n="ServoFilterSetup">1</P>
         <P n="FeedbackSetup">0</P>
         <P n="EncoderMultiplierSetup">3</P>
@@ -709,7 +709,7 @@
         <P n="GainKd1">0</P>
         <P n="GainKp1">0</P>
         <P n="VelocityCommandThresholdBeforeHome">0</P>
-        <P n="InPosition2Distance">2.1392525118186594</P>
+        <P n="InPosition2Distance">2.1527774879563841</P>
         <P n="InPosition2Time">0</P>
         <P n="StepperRunningCurrentDelay">500</P>
         <P n="ExternalVelocityAverageTime">1</P>
@@ -736,7 +736,7 @@
         <P n="FeedforwardAdvance">0.75</P>
         <P n="CapSensorSetup">0</P>
         <P n="CapSensorThresholdLow">0</P>
-        <P n="CapSensorThresholdHigh">106962.62559093299</P>
+        <P n="CapSensorThresholdHigh">107638.87439781922</P>
         <P n="RequiredStageSerialNumber">
         </P>
         <P n="StepperDampingGain">0</P>
@@ -3410,5 +3410,45 @@
       <InterfaceVersion>5.6.1.8</InterfaceVersion>
     </FileInfo>
     <OldestCompatibleParameterFileVersion>3.3</OldestCompatibleParameterFileVersion>
+    <CalculatorStates>
+      <Axis number="1" formatVersion="5.0.0.0" lastSavedVersion="5.6.1.8">
+        <AxisType>None</AxisType>
+        <MotorType>Rotary</MotorType>
+        <MotorName>
+        </MotorName>
+        <IsCustomMotor>True</IsCustomMotor>
+        <CommutationOffset>0</CommutationOffset>
+        <IsBrushless>True</IsBrushless>
+        <HasHallEffectSwitches>True</HasHallEffectSwitches>
+        <MotorTransmissionRatio>1</MotorTransmissionRatio>
+        <StageType>None</StageType>
+        <StageName>
+        </StageName>
+        <IsCustomStage>True</IsCustomStage>
+        <Cooling>0</Cooling>
+        <PeakCurrent>10</PeakCurrent>
+        <AmplifierContinuousCurrent>5</AmplifierContinuousCurrent>
+        <BusVoltage>160</BusVoltage>
+        <IsCustomAmplifierBusVoltage>False</IsCustomAmplifierBusVoltage>
+        <UnitName>
+        </UnitName>
+        <IsCustomUnits>False</IsCustomUnits>
+        <ServoCrossoverFreq>35</ServoCrossoverFreq>
+        <ServoPhaseMargin>45</ServoPhaseMargin>
+        <CurrentCrossoverFreq>2000</CurrentCrossoverFreq>
+        <CurrentPhaseMargin>45</CurrentPhaseMargin>
+        <AmplifierType>CP</AmplifierType>
+        <MotorFilterName>None</MotorFilterName>
+        <IsCustomMotorFilter>False</IsCustomMotorFilter>
+        <PositionFeedbackName>
+        </PositionFeedbackName>
+        <PositionFeedbackIsCustom>True</PositionFeedbackIsCustom>
+        <PositionFeedbackDeviceType>IncrementalEncoder</PositionFeedbackDeviceType>
+        <PositionFeedbackMultiplierType>None</PositionFeedbackMultiplierType>
+        <PositionFeedbackMultiplicationFactor>1</PositionFeedbackMultiplicationFactor>
+        <PositionFeedbackResolution>1000</PositionFeedbackResolution>
+        <IsDualLoopActive>False</IsDualLoopActive>
+      </Axis>
+    </CalculatorStates>
   </Data>
 </configuration>
